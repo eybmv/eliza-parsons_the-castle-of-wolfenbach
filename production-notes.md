@@ -1,0 +1,1 @@
+Due to the formatting of the source material, the producer has inserted paragraph breaks where it would seem natural to find them to the modern reader (e.g. scene or topic changes, a different speaker, a different character's narration, etc.)
