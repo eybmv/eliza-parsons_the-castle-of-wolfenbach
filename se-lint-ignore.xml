@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="volume-1.xhtml">
+		<ignore code="t-011">
+						<line>378</line>
+						<line>390</line>
+			<reason>Signature is part of a letter that is being read aloud. The reader continues their dialouge in the next paragraph.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
