@@ -42,7 +42,10 @@
 		<meta property="term" refines="#subject-1">sh2008020084</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:abstract">A woman discovers the dark past of an old, haunted castle.</meta>
-		<dc:description><p>On a dark and stormy night...</p> <p><i>The Castle of Wolfenbach</i> was listed as one of the reccomended "horrid novels" in <a href="https://standardebooks.org/ebooks/jane-austen">Jane Austen</a>'s <a href="https://standardebooks.org/ebooks/jane-austen/northanger-abbey"><i>Northanger Abbey</i></a></p> </dc:description>
+		<dc:description>
+			&lt;p&gt;On a dark and stormy night...&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Castle of Wolfenbach&lt;/i&gt; was listed as one of the reccomended "horrid novels" in &lt;a href="https://standardebooks.org/ebooks/jane-austen"&gt;Jane Austen&lt;/a&gt;'s &lt;a href="https://standardebooks.org/ebooks/jane-austen/northanger-abbey"&gt;&lt;i&gt;Northanger Abbey&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://gutenberg.net.au/ebooks06/0606211h.html</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100906776</dc:source>
