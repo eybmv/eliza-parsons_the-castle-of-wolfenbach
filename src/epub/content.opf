@@ -30,18 +30,22 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Castle of Wolfenbach</dc:title>
 		<meta property="file-as" refines="#title">Castle of Wolfenbach, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A German Story</dc:title>
+		<meta property="file-as" refines="#subtitle">German Story, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Castle of Wolfenbach: A German Story</dc:title>
+		<meta property="file-as" refines="#fulltitle">Castle of Wolfenbach, The</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
+		<dc:subject id="subject-1">Gothic fiction (Literary genre)</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="schema:genre">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">LONG_DESCRIPTION</meta>
+		<meta property="term" refines="#subject-1">sh2008020084</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:abstract">A woman discovers the dark past of an old, haunted castle.</meta>
+		<dc:description><p>On a dark and stormy night...</p> <p><i>The Castle of Wolfenbach</i> was listed as one of the reccomended "horrid novels" in <a href="https://standardebooks.org/ebooks/jane-austen">Jane Austen</a>'s <a href="https://standardebooks.org/ebooks/jane-austen/northanger-abbey"><i>Northanger Abbey</i></a></p> </dc:description>
 		<dc:language>en-GB</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://gutenberg.net.au/ebooks06/0606211h.html</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/100906776</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Castle_of_Wolfenbach" rel="schema:sameAs"/>
@@ -50,29 +54,23 @@
 		<link href="https://github.com/standardebooks/eliza-parsons_the-castle-of-wolfenbach" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Eliza Parsons</dc:creator>
 		<meta property="file-as" refines="#author">Parsons, Eliza</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://en.wikipedia.org/wiki/Eliza_Parsons" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n83041811.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="artist">Jasper Francis Cropsey</dc:contributor>
+		<meta property="file-as" refines="#artist">Cropsey, Jasper Francis</meta>
+		<link href="https://en.wikipedia.org/wiki/Jasper_Francis_Cropsey" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80026719.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">Richard Scott</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Scott, Richard</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
+		<dc:contributor id="producer-1">Elizabeth Miller-Boldt</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Miller-Boldt, Elizabeth</meta>
 		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
