@@ -44,10 +44,10 @@
 		<meta property="schema:abstract">A woman discovers the dark past of an old, haunted castle.</meta>
 		<dc:description>
 			&lt;p&gt;On a dark and stormy night …&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Castle of Wolfenbach&lt;/i&gt; was listed as one of the reccomended “horrid novels” in &lt;a href="https://standardebooks.org/ebooks/jane-austen"&gt;Jane Austen&lt;/a&gt;’s &lt;a href="https://standardebooks.org/ebooks/jane-austen/northanger-abbey"&gt;&lt;i&gt;Northanger Abbey&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Castle of Wolfenbach&lt;/i&gt; was listed as one of the reccomended “horrid novels” in &lt;a href="https://standardebooks.org/ebooks/jane-austen"&gt;Jane Austen’s&lt;/a&gt; &lt;a href="https://standardebooks.org/ebooks/jane-austen/northanger-abbey"&gt;&lt;i&gt;Northanger Abbey&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
-		<dc:source>https://gutenberg.net.au/ebooks06/0606211h.html</dc:source>
+		<dc:source>https://www.gutenberg.net.au/ebooks06/0606211h.html</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100906776</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
@@ -68,9 +68,9 @@
 		<dc:contributor id="transcriber-1">Richard Scott</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Scott, Richard</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Project Gutenberg Australia</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Project Gutenberg Australia</meta>
+		<link href="https://www.gutenberg.net.au/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Elizabeth Miller-Boldt</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Miller-Boldt, Elizabeth</meta>
