@@ -21,7 +21,9 @@
 	margin-top: 1em;
 }
 
-blockquote:nth-of-type(3) p:last-of-type{
+/* stand-in for stretched curly brace on poem */
+
+#volume-1 blockquote:nth-of-type(3) p:last-of-type{
 	border-right: 1px solid;
 }
 
